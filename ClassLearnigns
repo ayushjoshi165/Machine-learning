@@ -1,0 +1,642 @@
+
+Applied Machine Learning	
+Home	
+Introduction to ML
+Getting Started
+Widely used examples in today's life:
+Initial AI was purely based on statistical techniques
+Understanding Artificial Intelligence
+What is Machine Learning?
+Machine Learning Categories
+In the order of evolution:
+Supervised Learning
+Scikit-learn
+Unsupervised Learning
+unsupervised learning, do not specify a target variable to the machine, rather we ask machine “What can you tell me about X?
+Reinforcement Learning
+Deep Learning
+Machine Learning vs. Deep Learning
+Machine Learning
+Deep Learning
+Convolutional Neural Networks (CNN):
+Recurrent Neural Network (RNN)
+CNN vs. RNN differences
+Keras
+Getting Started 
+What are the different types in machine learning?
+
+What are the different algorithms available for developing machine learning models?
+
+What tools are available for developing these models?
+
+What are the programming language choices?
+
+What platforms support development and deployment of Machine Learning applications?
+
+What IDEs (Integrated Development Environment) are available?
+
+ 
+
+Widely used examples in today's life:
+Google Translate
+
+Google Maps (Directions, finding alternate and faster routes)
+
+Self-driving cars
+
+Speech Recognitions / voice assistants
+
+Mobile Apps
+
+Emotion analysis
+
+Sentiment analysis
+
+Error detection and prevention
+
+Weather forecasting and prediction
+
+Stock market analysis and forecasting
+
+Speech synthesis
+
+Customer segmentation
+
+Object recognition
+
+Fraud detection
+
+Fraud prevention
+
+Recommendation of products to customer in online shopping
+
+Customer support
+
+Healthcare Assistant
+
+Etc.
+
+ 
+
+ 
+
+Initial AI was purely based on statistical techniques
+Today, they are much more complex
+
+Some old techniques are still being used
+
+Regression
+
+Classification
+
+Clustering
+
+Probability Theories
+
+Decision Trees
+
+Statistical techniques are more common if AI algorithm is developed using limited data
+
+Today plenty of data is available
+
+More advanced methods such as deep learning are hence developed to solve many complex problems.
+
+ 
+
+Understanding Artificial Intelligence
+Artificial Intelligence includes the simulation process of human intelligence by machines and special computer systems
+
+The examples of artificial intelligence include learning, reasoning and self-correction
+
+Machine learning is the branch of artificial intelligence
+
+which deals with systems and algorithms that can learn any new data and data patterns.
+
+
+What is Machine Learning?
+use the statistical optimization techniques to find out the equation for the best fit curve
+
+use known optimization techniques to find the best solution to your problem
+
+Machine learning includes “pattern recognition” which includes the ability to recognize the patterns in data.
+
+Housing Price Example
+
+
+
+Traditional Programming Flow
+
+
+Machine Learning Flow
+
+Machine Learning Categories
+In the order of evolution:
+Supervised Learning
+
+Initially, researchers started out with Supervised Learning. This is the case of housing price prediction discussed earlier.
+
+Unsupervised Learning
+
+This was followed by unsupervised learning, where the machine is made to learn on its own without any supervision.
+
+Reinforcement Learning
+
+Scientists discovered further that it may be a good idea to reward the machine when it does the job the expected way and there came the Reinforcement Learning.
+
+Deep Learning
+
+Very soon, the data that is available these days has become so humongous that the conventional techniques developed so far failed to analyze the big data and provide us the predictions.
+
+Thus, came the deep learning where the human brain is simulated in the Artificial Neural Networks (ANN) created in our binary computers.
+
+The machine now learns on its own using the high computing power and huge memory resources that are available today.
+
+It is now observed that Deep Learning has solved many of the previously unsolvable problems.
+
+Deep Reinforcement Learning
+
+The technique is now further advanced by giving incentives to Deep Learning networks as awards and there finally comes Deep Reinforcement Learning.
+
+
+Supervised Learning
+analogous to training a child to walk
+
+Supervised Learning is where the AI really began its journey
+
+give concrete known examples to the computer
+
+
+say that for given feature value x1 the output is y1, for x2 it is y2, for x3 it is y3, and so on. 
+
+Based on this data, you let the computer figure out an empirical relationship between x and y.
+
+Once the machine is trained in this way with a sufficient number of data points, now you would ask the machine to predict Y for a given X. Assuming that you know the real value of Y for this given X, you will be able to deduce whether the machine’s prediction is correct.
+
+Thus, you will test whether the machine has learned by using the known test data. Once you are satisfied that the machine is able to do the predictions with a desired level of accuracy (say 80 to 90%) you can stop further training the machine.
+
+Now, you can safely use the machine to do the predictions on unknown data points, or ask the machine to predict Y for a given X for which you do not know the real value of Y
+
+There are several algorithms available for supervised learning. Some of the widely used algorithms of supervised learning are as shown below −
+
+k-Nearest Neighbors
+
+
+Decision Trees
+
+classify input data based on this flowchart
+
+the decision trees can be large and complex
+
+Naive Bayes
+
+use features and test the probability that a given feature matches the desired constraints
+
+For example, any fruit that is red in color, is round in shape and is about 10 cm in diameter may be considered as Apple
+
+The probabilities of different features are then combined to arrive at a probability that a given fruit is an Apple
+
+Naive Bayes generally requires a small number of training data for classification
+
+Logistic Regression
+
+
+visually inspect the separation of red dots from green dots. 
+
+draw a boundary line to separate out these dots. 
+
+Now, to classify a new data point, just need to determine on which side of the line the point lies
+
+Support Vector Machines
+
+
+The boundary curves are non-linear. 
+
+In such a case, finding the equation of the curve becomes a complex job
+
+The Support Vector Machines (SVM) comes handy in determining the separation boundaries in such situations
+
+Fortunately, most of the time you do not have to code the algorithms mentioned in the previous lesson. 
+
+There are many standard libraries which provide the ready-to-use implementation of these algorithms. 
+
+One such toolkit that is popularly used is scikit-learn. 
+
+
+Scikit-learn
+C#
+
+https://github.com/SciSharp/scikit-learn.net
+
+Python
+
+https://scikit-learn.org/stable/
+
+https://www.scipy.org/scikits.html
+
+
+
+Unsupervised Learning
+
+unsupervised learning, do not specify a target variable to the machine, rather we ask machine “What can you tell me about X?
+More specifically, we may ask questions such as given a huge data set X, “What are the five best groups we can make out of X?” or “What features occur together most frequently in X?
+
+To arrive at the answers to such questions, you can understand that the number of data points that the machine would require to deduce a strategy would be very large.
+
+In case of unsupervised learning, the number of data points that is reasonably accepted for learning starts in a few millions as opposed to few thousands of data points for supervised learning.
+
+The data ideally requires curating. However, the amount of data that is continuously flowing in a social area network, in most cases data curation is an impossible task
+
+The following figure shows the boundary between the yellow and red dots as determined by unsupervised machine learning. You can see it clearly that the machine would be able to determine the class of each of the black dots with a fairly good accuracy.
+
+
+The unsupervised learning has shown a great success in many modern AI applications, such as face detection, object detection, and so on.
+
+consider the voter’s data. 
+
+By considering some inputs from each voter (these are called features in AI terminology), let the machine predict that there are so many voters who would vote for X political party and so many would vote for Y, and so on. Thus, in general, we are asking the machine given a huge set of data points X, “What can you tell me about X?”. Or it may be a question like “What are the five best groups we can make out of X?”. Or it could be even like “What three features occur together most frequently in X?”.
+
+Algorithm: k-means clustering
+
+one type of clustering algorithm called k-means. 
+
+It is called k-means because it finds ‘k’ unique clusters, and the center of each cluster is the mean of the values in that cluster.
+
+“Here’s some data. Now group similar things together and tell me about those groups.” 
+
+The key difference from classification is that in classification you know what you are looking for. While that is not the case in clustering.
+
+Clustering is sometimes called unsupervised classification because it produces the same result as classification does but without having predefined classes.
+
+ 
+
+ 
+
+ 
+
+Reinforcement Learning
+Consider training a pet dog, we train our pet to bring a ball to us. We throw the ball at a certain distance and ask the dog to fetch it back to us. Every time the dog does this right, we reward the dog. Slowly, the dog learns that doing the job rightly gives him a reward and then the dog starts doing the job right way every time in future.
+
+The technique was initially developed for machines to play games
+
+The machine is given an algorithm to analyze all possible moves at each stage of the game. The machine may select one of the moves at random. If the move is right, the machine is rewarded, otherwise it may be penalized
+
+Slowly, the machine will start differentiating between right and wrong moves and after several iterations would learn to solve the game puzzle with a better accuracy. The accuracy of winning the game would improve as the machine plays more and more games.
+
+
+Deep Learning
+The deep learning is a model based on Artificial Neural Networks (ANN), more specifically Convolutional Neural Networks (CNN)s.
+
+Deep learning is a subfield of machine learning where concerned algorithms are inspired by the structure and function of the brain called artificial neural networks.
+
+All the value today of deep learning is through supervised learning or learning from labelled data and algorithms.
+
+Each algorithm in deep learning goes through the same process. It includes a hierarchy of nonlinear transformation of input that can be used to generate a statistical model as output.
+
+Consider the following steps that define the Machine Learning process
+
+Identifies relevant data sets and prepares them for analysis.
+
+Chooses the type of algorithm to use
+
+Builds an analytical model based on the algorithm used.
+
+Trains the model on test data sets, revising it as needed.
+
+Runs the model to generate test scores.
+
+There are several architectures used in deep learning such as deep neural networks, deep belief networks, recurrent neural networks (RNN)s, and convolutional neural networks.
+
+These networks have been successfully applied in solving the problems of computer vision, speech recognition, natural language processing, bioinformatics, drug design, medical image analysis, and games. There are several other fields in which deep learning is proactively applied. The deep learning requires huge processing power and humongous data, which is generally easily available these days.
+
+Deep Learning Disadvantages
+
+Black Box approach
+
+An ANN is like a blackbox
+
+
+Now consider a banking application where the bank wants to decide the creditworthiness of a client. The network will definitely provide you an answer to this question. However, will you be able to justify it to a client? Banks need to explain it to their customers why the loan is not sanctioned?
+
+Duration of Development
+
+
+Amount of Data
+
+The deep learning networks usually require a huge amount of data for training, while the traditional machine learning algorithms can be used with a great success even with just a few thousands of data points.
+
+Fortunately, the data abundance is growing at 40% per year and CPU processing power is growing at 20% per year
+
+Computationally Expensive
+
+Successful training of deep Neural Networks may require several weeks of training time.
+
+traditional machine learning algorithms take only a few minutes/hours to train.
+
+ 
+
+Deep Reinforcement Learning
+
+The Deep Reinforcement Learning (DRL) combines the techniques of both deep and reinforcement learning. The reinforcement learning algorithms like Q-learning are now combined with deep learning to create a powerful DRL model. 
+
+The technique has been with a great success in the fields of robotics, video games, finance and healthcare.
+
+ 
+
+ 
+
+Artificial Neural Networks (ANN)
+
+The idea of artificial neural networks was derived from the neural networks in the human brain. 
+
+The human brain is really complex. 
+
+Carefully studying the brain, the scientists and engineers came up with an architecture that could fit in our digital world of binary computers. 
+
+One such typical architecture is shown in the diagram below −
+
+
+There is an input layer which has many sensors to collect data from the outside world. On the right hand side, we have an output layer that gives us the result predicted by the network. In between these two, several layers are hidden. Each additional layer adds further complexity in training the network, but would provide better results in most of the situations. 
+
+There are several types of architectures designed.
+
+
+Each architecture is developed for a specific type of application. Thus, when you use a neural network for your machine learning application, you will have to use either one of the existing architecture or design your own. The type of architecture that you finally decide upon depends on your application needs. There is no single guideline that tells you to use a specific network architecture.
+
+An ANN is like a blackbox
+
+ 
+
+Machine Learning vs. Deep Learning
+Machine Learning                                                                              
+Supervised or Unsupervised Learning                                     
+
+Works with small or large amount of data                               
+
+Works with regular machines                                                    
+
+Traditional machine learning patterns focus on pixels and other attributes needed for feature engineering process
+
+It reduces the task of developing new feature extractor of every new problem.
+
+The traditional machine learning algorithms follow a standard procedure to solve the problem. It breaks the problem into parts, solve each one of them and combine them to get the required result
+
+Generally requires less time. 
+
+Deep Learning
+ Supervised Learning
+
+Better results with large amount of data
+
+ Requires high-end machines
+
+Deep learning algorithms focus on high-level features from data.
+
+Deep learning focusses in solving the problem from end to end instead of breaking them into divisions.
+
+Deep learning requires a lot of time to train as it includes a lot of parameters which takes a longer time than usual
+
+
+
+ 
+
+Convolutional Neural Networks (CNN):
+Following are the two important types of deep neural networks −
+
+Convolutional Neural Networks
+
+Recurrent Neural Networks
+
+Convolutional Neural networks are designed to process data through multiple layers of arrays. 
+
+This type of neural networks is used in applications like image recognition or face recognition. 
+
+The primary difference between CNN and any other ordinary neural network is that CNN takes input as a two-dimensional array and operates directly on the images rather than focusing on feature extraction which other neural networks focus on.
+
+A convolutional neural network uses three basic ideas −
+
+Local respective fields
+
+Convolution
+
+Pooling
+
+CNN utilizes spatial correlations that exist within the input data. 
+
+Each concurrent layer of a neural network connects some input neurons. 
+
+This specific region is called local receptive field. 
+
+Local receptive field focusses on the hidden neurons.
+
+The hidden neurons process the input data inside the mentioned field not realizing the changes outside the specific boundary.
+
+
+If we observe the above representation, each connection learns a weight of the hidden neuron with an associated connection with movement from one layer to another. Here, individual neurons perform a shift from time to time. This process is called “convolution”.
+
+The mapping of connections from the input layer to the hidden feature map is defined as “shared weights” and bias included is called “shared bias”.
+
+CNNs use pooling layers, which are the layers, positioned immediately after CNN declaration. 
+
+It takes the input from the user as a feature map that comes out of convolutional networks and prepares a condensed feature map. 
+
+Pooling layers helps in creating layers with neurons of previous layers.
+
+ 
+
+ 
+
+Recurrent Neural Network (RNN)
+Recurrent neural networks is a type of deep learning-oriented algorithm, which follows a sequential approach.
+
+In neural networks, we always assume that each input and output is independent of all other layers.
+
+These type of neural networks are called recurrent because they perform mathematical computations in sequential manner.
+
+Steps to train a recurrent neural network −
+
+Step 1 − Input a specific example from dataset.
+
+Step 2 − Network will take an example and compute some calculations using randomly initialized variables.
+
+Step 3 − A predicted result is then computed.
+
+Step 4 − The comparison of actual result generated with the expected value will produce an error.
+
+Step 5 − To trace the error, it is propagated through same path where the variables are also adjusted.
+
+Step 6 − The steps from 1 to 5 are repeated until we are confident that the variables declared to get the output are defined properly.
+
+Step 7 − A systematic prediction is made by applying these variables to get new unseen input.
+
+
+CNN vs. RNN differences
+CNN
+
+It is suitable for spatial data such as images.
+
+CNN is considered to be more powerful than RNN.
+
+This network takes fixed size inputs and generates fixed size outputs.
+
+CNN is a type of feed-forward artificial neural network with variations of multilayer perceptrons designed to use minimal amounts of preprocessing.
+
+CNNs use connectivity pattern between the neurons. This is inspired by the organization of the animal visual cortex, whose individual neurons are arranged in such a way that they respond to overlapping regions tiling the visual field.
+
+CNNs are ideal for images and video processing.
+
+RNN
+
+RNN is suitable for temporal data, also called sequential data.
+
+RNN includes less feature compatibility when compared to CNN.
+
+RNN can handle arbitrary input/output lengths.
+
+RNN unlike feed forward neural networks - can use their internal memory to process arbitrary sequences of inputs.
+
+Recurrent neural networks use time-series information - what a user spoke last will impact what he/she will speak next.
+
+RNNs are ideal for text and speech analysis.
+
+
+Machine Learning Skills
+
+Statistics
+
+Most of the machine learning algorithms are heavily based on mathematics. The level of mathematics that you need to know is probably just a beginner level. What is important is that you should be able to read the notation that mathematicians use in their equations. For example - if you are able to read the notation and comprehend what it means, you are ready for learning machine learning. If not, you may need to brush up your mathematics knowledge.
+
+Probability Theories
+
+Calculus
+
+Optimization techniques
+
+Visualization
+
+In many cases, you will need to understand the various types of visualization plots to understand your data distribution and interpret the results of the algorithm’s output.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Machine Learning Implementation
+
+Language Choice
+
+Here is a list of preferred languages that support ML development −
+
+Python
+
+R
+
+C#
+
+IDEs
+
+Here is a list of preferred IDEs which support ML development −
+
+Visual Studio Code
+
+R Studio
+
+Pycharm
+
+Jupyter Notebook
+
+Visual Studio Community Edition
+
+Platforms
+
+Here is a list of preferred platforms on which ML applications can be deployed −
+
+Microsoft Azure
+
+Google Cloud
+
+Amazon
+
+TensorBoard Visualization
+
+TensorFlow includes a visualization tool, which is called the TensorBoard.
+
+It is used for analyzing Data Flow Graph and also used to understand machine-learning models.
+
+The important feature of TensorBoard includes a view of different types of statistics about the parameters and details of any graph in vertical alignment.
+
+Deep neural network includes up to 36,000 nodes. TensorBoard helps in collapsing these nodes in high-level blocks and highlighting the identical structures. This allows better analysis of graph focusing on the primary sections of the computation graph. The TensorBoard visualization is said to be very interactive where a user can pan, zoom and expand the nodes to display the details.
+
+
+
+Keras
+Keras is compact, easy to learn, high-level Python library run on top of TensorFlow framework. 
+
+It is made with focus of understanding deep learning techniques, such as creating layers for neural networks maintaining the concepts of shapes and mathematical details. 
+
+The creation of framework can be of the following two types −
+
+Sequential API
+
+Functional API
+
+Consider the following eight steps to create deep learning model in Keras −
+
+Loading the data
+
+Preprocess the loaded data
+
+Definition of model
+
+Compiling the model
+
+Fit the specified model
+
+Evaluate it
+
+Make the required predictions
+
+Save the model
+
+TFLearn
+
+TFLearn can be defined as a modular and transparent deep learning aspect used in TensorFlow framework. The main motive of TFLearn is to provide a higher level API to TensorFlow for facilitating and showing up new experiments.
+
+Consider the following important features of TFLearn −
+
+TFLearn is easy to use and understand.
+
+It includes easy concepts to build highly modular network layers, optimizers and various metrics embedded within them.
+
+It includes full transparency with TensorFlow work system.
+
+It includes powerful helper functions to train the built in tensors which accept multiple inputs, outputs and optimizers.
+
+It includes easy and beautiful graph visualization.
+
+The graph visualization includes various details of weights, gradients and activations.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ref:
+
+https://www.tutorialspoint.com/machine_learning/machine_learning_quick_guide.htm
+
+https://www.tutorialspoint.com/tensorflow/tensorflow_quick_guide.htm
+
+Introduction to Machine Learning for Beginners | by Ayush Pant | Towards Data Science
+
+https://www.tensorflow.org/guide/
+
+https://en.wikipedia.org/wiki/Book:Machine_Learning_–_The_Complete_Guide
+
+Machine Learning Tutorial | Machine Learning with Python - Javatpoint
+
