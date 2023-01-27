@@ -8,5 +8,13 @@ pietorch, openaai, tensorflow library
 
 overlap of time series forcasting , computer vision and nlp is video steaming
 
+CNN : Convonutional neural Network, ideal architecture to process the image 
+usually it is combination of 3 -  Lu, pooling and convonutional
+
+hyper parameter tuning : Keras libraby 
+
+how many parameter we can cha nge in a simple model
+
+
 
 
